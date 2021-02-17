@@ -22,7 +22,9 @@ namespace Aplikacja
     {
         DataContext db = new DataContext(@"Server =(LocalDb)\.;Initial Catalog = Biblioteka;User ID=MAN;Password=qwertyuiop");
         Klient x = null;
-        
+        /// <summary>
+        /// Konstruktor tworzy okno i określa wstępne parametry 
+        /// </summary>
         public Window4()
         {
             InitializeComponent();
