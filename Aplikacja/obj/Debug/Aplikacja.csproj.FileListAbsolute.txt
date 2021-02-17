@@ -1,0 +1,15 @@
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\bin\Debug\Aplikacja.exe.config
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\bin\Debug\Aplikacja.exe
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\bin\Debug\Aplikacja.pdb
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja.csprojAssemblyReference.cache
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\MainWindow.g.cs
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\App.g.cs
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja_MarkupCompile.cache
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja_MarkupCompile.lref
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\MainWindow.baml
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja.g.resources
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja.Properties.Resources.resources
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja.csproj.GenerateResource.cache
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja.csproj.CoreCompileInputs.cache
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja.exe
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Aplikacja.pdb

@@ -54,7 +54,7 @@ namespace Aplikacja
             get { return this.id_Autora; }
             set { this.id_Autora = value; }
         }
-        [Column(Storage = "id_Kategorie")]
+        [Column(Storage = "id_Kategories")]
         public int id_Kategorie
         {
             get { return this.id_Kategories; }
@@ -85,7 +85,7 @@ namespace Aplikacja
             set { this.Tytułs = value; }
         }
     }
-    [Table(Name = "Kategorie")]
+    [Table(Name = "Kategoria")]
     public class Kategoria
     {
         private int id_Kategories;
