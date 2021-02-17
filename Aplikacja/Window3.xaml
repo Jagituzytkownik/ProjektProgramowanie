@@ -1,0 +1,17 @@
+﻿<Window x:Class="Aplikacja.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplikacja"
+        mc:Ignorable="d"
+            Title="Wypożyczanie" Height="256.794" Width="800" Background="Yellow">
+    <Grid Margin="0,10,0,1">
+        <TextBlock FontSize="40" Margin="263,0,257,157" RenderTransformOrigin="1.08,0.658">Wypożyczenia</TextBlock>
+        <TextBlock  FontSize="30" Margin="127,63,550,101">Książka</TextBlock>
+        <ComboBox x:Name="cbKsiążka" Margin="62,114,495,42" ></ComboBox>
+        <TextBlock FontSize="30" Margin="540,63,123,101">Czytelnik</TextBlock>
+        <ComboBox x:Name="cbCzytelnik" Margin="496,114,61,42" ></ComboBox>
+        <Button FontSize="20"  Margin="337,119,328,42" >Wypożycz</Button>
+    </Grid>
+</Window>

@@ -17,3 +17,5 @@ D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Window1.g.cs
 D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Window1.baml
 D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Window2.g.cs
 D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Window2.baml
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Window3.g.cs
+D:\ProjektPliki\ProjektProgramowanie\Aplikacja\obj\Debug\Window3.baml
