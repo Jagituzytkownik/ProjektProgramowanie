@@ -63,7 +63,7 @@ namespace Aplikacja
 
         public override string ToString()
         {
-            return $"{id_Książka} {id_Autor} {id_Książka} {id_Tytuł}";
+            return $"{id_Książka} {id_Autor} {id_Tytuł} {id_Kategorie}";
         }
     }
     [Table(Name = "Tytuły")]
@@ -145,7 +145,7 @@ namespace Aplikacja
         }
         public override string ToString()
         {
-            return $"{Imies} {Nazwiskos} {Zamieszkanies}";
+            return $"{id_Klient} {Imies} {Nazwiskos} {Zamieszkanies}";
         }
     }
 
@@ -188,5 +188,10 @@ namespace Aplikacja
             get { return this.dataOddanias; }
             set { this.dataOddanias = value; }
         }
+        public override string ToString()
+        {
+            return $"{id_Wypożyczenia} {id_Klient} {id_Książka}";
+        }
     }
+
 }

@@ -26,6 +26,7 @@ namespace Aplikacja
             {
                 InitializeComponent();
             new Window1().Show();
+            new Window2().Show();
 
             }
 
