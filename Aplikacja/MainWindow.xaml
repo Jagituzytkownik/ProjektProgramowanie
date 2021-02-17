@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Aplikacja"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+      Title="Przegląd danych" Height="450" Width="800">
     <Grid>
-        
+        <DataGrid x:Name="dgTable" ItemsSource="{Binding}"  AutoGenerateColumns="True" CanUserAddRows="False" Height="282" Margin="39,68,52,0" VerticalAlignment="Top" />
+        <ComboBox x:Name="cbTable" FontSize="20" HorizontalAlignment="Left" Margin="175,10,0,0" VerticalAlignment="Top" Width="435" Height="53" >
+            <ComboBoxItem x:Name="item001" FontSize="20" IsSelected="False">AUTORZY</ComboBoxItem>
+            <ComboBoxItem x:Name="item002" FontSize="20" IsSelected="False">TYTUŁY</ComboBoxItem>
+            <ComboBoxItem x:Name="item003" FontSize="20" IsSelected="False">KSIĄŻKI</ComboBoxItem>
+            <ComboBoxItem x:Name="item004" FontSize="20" IsSelected="False">CZYTELNICY</ComboBoxItem>
+            <ComboBoxItem x:Name="item005" FontSize="20" IsSelected="False">WYPOŻYCZENIA</ComboBoxItem>
+            <ComboBoxItem x:Name="item006" FontSize="20" IsSelected="False">KATEGORIE</ComboBoxItem>
+        </ComboBox>
     </Grid>
 </Window>
