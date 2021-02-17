@@ -28,6 +28,7 @@ namespace Aplikacja
             new Window1().Show();
             new Window2().Show();
             new Window3().Show();
+            new Window4().Show();
 
             }
 

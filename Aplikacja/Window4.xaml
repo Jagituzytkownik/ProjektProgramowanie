@@ -1,0 +1,24 @@
+﻿<Window x:Class="Aplikacja.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplikacja"
+     Title="Popraw dane czytelnika" Height="464.595" Width="401.081" ResizeMode="NoResize"  Background="Blue">
+    <Grid>
+
+        <TextBlock Text="Czytelnik:" FontSize="25" Margin="0,52,193,0" HorizontalAlignment="Right" Width="192" Height="40" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbCzytelnika" Width="150" IsEditable="True" Height="40" Margin="0,52,38,0" HorizontalAlignment="Right" VerticalAlignment="Top" />
+        <Button x:Name="btPokaż" Content="Pokaż" FontSize="25" Margin="207,97,38,295" ></Button>
+        <TextBlock Text="Imie:" FontSize="25" Margin="0,146,282,0" HorizontalAlignment="Right" Width="103" Height="40" VerticalAlignment="Top"/>
+        <TextBox x:Name="cbImie" Width="150" Height="40" Margin="0,146,38,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock Text="Nazwisko:" FontSize="25" Margin="0,191,225,0" HorizontalAlignment="Right" Width="160" Height="40" VerticalAlignment="Top" RenderTransformOrigin="0.528,0.545"></TextBlock>
+        <TextBox x:Name="cbNazwisko" Width="150" Height="40" Margin="0,191,38,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock Text="Zamieszkanie:" FontSize="25" Margin="0,236,225,0" RenderTransformOrigin="0.828,3.401" HorizontalAlignment="Right" Width="160" Height="40" VerticalAlignment="Top"></TextBlock>
+        <TextBox x:Name="cbZamieszkanie" Width="150" Height="40" Margin="0,236,38,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock Text="Numer telefonu:" FontSize="25" Margin="0,281,193,0" RenderTransformOrigin="0.828,3.401" HorizontalAlignment="Right" Width="192" Height="40" VerticalAlignment="Top"/>
+        <TextBox x:Name="cbTelefon" Width="150"  Height="40" Margin="0,281,38,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <Button x:Name="bZatwierdź" Content="Zamień" FontSize="30" Width="200" Height="50" Margin="0,336,38,0" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.RowSpan="2"  />
+
+    </Grid>
+</Window>
