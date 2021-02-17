@@ -25,6 +25,7 @@ namespace Aplikacja
             public MainWindow()
             {
                 InitializeComponent();
+            new Window1().Show();
 
             }
 
