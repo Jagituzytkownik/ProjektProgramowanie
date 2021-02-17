@@ -21,6 +21,9 @@ namespace Aplikacja
     public partial class Window3 : Window
     {  
         DataContext db = new DataContext(@"Server =(LocalDb)\.;Initial Catalog = Biblioteka;User ID=MAN;Password=qwertyuiop");
+        /// <summary>
+        /// Konstruktor tworzy okno i określa wstępne parametry 
+        /// </summary>
         public Window3()
         {
             InitializeComponent();
