@@ -21,7 +21,7 @@
             <Button Height="68" Content="Dodaj Książkę" Background="GreenYellow" Width="180" Margin="0,-3" Click="Button_Click"/>
             <Button Height="68" Content="Wypożyczenie" Background="Yellow" Width="180" Margin="0,-3" Click="Button_Click_1"/>
             <Button Height="68" Content="Usuń" Background="OrangeRed" Width="180" Margin="0,-3" Click="Button_Click_2"/>
-            <Button Height="68" Content="Popraw Dane" Background="Blue" Width="180" Click="Button_Click_3"/>
+            <Button Content="Popraw Dane" Background="Blue" Width="180" Click="Button_Click_3" Margin="0,-3" VerticalAlignment="Stretch"/>
 
         </ToolBar>
     </Grid>

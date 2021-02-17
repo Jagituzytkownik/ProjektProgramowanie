@@ -25,10 +25,7 @@ namespace Aplikacja
             public MainWindow()
             {
                 InitializeComponent();
-            new Window1().Show();
-            new Window2().Show();
-            new Window3().Show();
-            new Window4().Show();
+           
 
             }
 
@@ -74,5 +71,28 @@ namespace Aplikacja
                     dgTable.Columns[0].Visibility = Visibility.Collapsed;
                 }
             }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+ new Window1().Show();
+         
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+new Window3().Show();
+            
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+   new Window2().Show();
+            
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+new Window4().Show();
+        }
+    }
     }
